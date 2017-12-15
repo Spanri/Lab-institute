@@ -1,0 +1,11 @@
+c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\bin\Debug\ConsoleApp5.exe.config
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\bin\Debug\ConsoleApp5.exe
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\bin\Debug\ConsoleApp5.pdb
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\obj\Debug\ConsoleApp5.exe
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\obj\Debug\ConsoleApp5.pdb
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp7\obj\Debug\ConsoleApp5.csprojResolveAssemblyReference.cache

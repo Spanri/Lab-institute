@@ -1,0 +1,5 @@
+﻿  Sort (1).cpp
+c:\users\spanri\downloads\sort (1).cpp(170): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\spanri\downloads\sort (1).cpp(173): warning C4101: t0: неиспользованная локальная переменная
+  ConsoleApplication2.vcxproj -> c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApplication2\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> c:\users\spanri\documents\visual studio 2017\Projects\ConsoleApplication2\Debug\ConsoleApplication2.pdb (Partial PDB)

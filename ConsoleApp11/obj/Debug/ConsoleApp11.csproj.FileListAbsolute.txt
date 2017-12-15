@@ -1,0 +1,6 @@
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\bin\Debug\ConsoleApp9.exe.config
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\bin\Debug\ConsoleApp9.exe
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\bin\Debug\ConsoleApp9.pdb
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\obj\Debug\ConsoleApp11.csprojResolveAssemblyReference.cache
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\obj\Debug\ConsoleApp9.exe
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp11\obj\Debug\ConsoleApp9.pdb

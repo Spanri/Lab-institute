@@ -1,0 +1,8 @@
+animal 12.01 2
+rose 07.06 1
+horse 13.11 6
+game 23.10 3
+head 30.02 5
+cat 11.04 11
+table 25.08 23
+mouse 14.12 8

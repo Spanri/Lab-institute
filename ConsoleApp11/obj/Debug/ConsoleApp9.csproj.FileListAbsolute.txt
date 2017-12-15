@@ -1,0 +1,6 @@
+C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp9\obj\Debug\ConsoleApp9.csprojResolveAssemblyReference.cache
+C:\Users\Spanri\documents\visual studio 2017\Projects\ConsoleApp9\bin\Debug\ConsoleApp9.exe.config
+C:\Users\Spanri\documents\visual studio 2017\Projects\ConsoleApp9\bin\Debug\ConsoleApp9.exe
+C:\Users\Spanri\documents\visual studio 2017\Projects\ConsoleApp9\bin\Debug\ConsoleApp9.pdb
+C:\Users\Spanri\documents\visual studio 2017\Projects\ConsoleApp9\obj\Debug\ConsoleApp9.exe
+C:\Users\Spanri\documents\visual studio 2017\Projects\ConsoleApp9\obj\Debug\ConsoleApp9.pdb
