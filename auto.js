@@ -15,17 +15,11 @@ rl.question('Input str ', (data) => {
 
 //finite-state-machine, conditions
 var cond = '';
-var cond2 = [];
 
 function H(str){
-    if(!str) {
-        console.log(cond);
-        for(i in cond2) console.log(cond2[i]);
-    }
+    if(!str) console.log(cond);
     else if(str[0] == '_') {
-        // console.log(str[0]+" H");
-        cond2.push(str[0]+" H");
-        cond += 'H ';
+        cond += 'H > ';
         B(str.slice(1));
     }
     else console.log('Str is not belong to this grammar');
@@ -33,20 +27,13 @@ function H(str){
 }
 
 function B(str){
-    if(!str) {
-        console.log(cond);
-        for(i in cond2) console.log(cond2[i]);
-    }
+    if(!str) console.log(cond);
     else if(str[0] == '0') {
-        // console.log(str[0]+" B");
-        cond2.push(str[0]+" B");
-        cond += 'B ';
+        cond += 'B > ';
         B(str.slice(1));
     }
     else if(str[0] == '1') {
-        // console.log(str[0]+" B");
-        cond2.push(str[0]+" B");
-        cond += 'B ';
+        cond += 'B > ';
         AB(str.slice(1));
     }
     else console.log('Str is not belong to this grammar');
@@ -54,21 +41,14 @@ function B(str){
 }
 
 function AB(str){
-    if(!str) {
-        console.log(cond);
-        for(i in cond2) console.log(cond2[i]);
-    }
+    if(!str) console.log(cond);
     else if(str[0] == '0') {
-        // console.log(str[0]+" AB");
-        cond2.push(str[0]+" AB");
-        cond += 'AB ';
+        cond += 'AB > ';
         str = str.slice(1);
         SAB(str);
     }
     else if(str[0] == '1') {
-        // console.log(str[0]+" AB");
-        cond2.push(str[0]+" AB");
-        cond += 'AB ';
+        cond += 'AB > ';
         str = str.slice(1);
         AB(str);
     }
@@ -77,14 +57,9 @@ function AB(str){
 }
 
 function SAB(str){
-    if(!str) {
-        console.log(cond);
-        for(i in cond2) console.log(cond2[i]);
-    }
+    if(!str) console.log(cond);
     else if(str[0] == '1' || str[0] == '0') {
-        // console.log(str[0]+" SAB");
-        cond2.push(str[0]+" SAB");
-        cond += 'SAB ';
+        cond += 'SAB > ';
         str = str.slice(1);
         SAB(str);
     }

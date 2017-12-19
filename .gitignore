@@ -1,0 +1,9 @@
+*.exe
+
+Debug
+Release
+*.suo
+*.csproj.user
+*.vbproj.user
+ipch
+*sdf
