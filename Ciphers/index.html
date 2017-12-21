@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ciphers</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+    <style>
+        input, p{
+            margin: 8px;
+            padding: 7px;
+            font-size: 20px;
+            word-wrap: break-word;
+        }
+        #ciphers input, #info, input[type="text"]{
+            background: rgb(101, 120, 129);
+            border: none;
+            color: white;
+        }
+        #ciphers input:hover{
+            transform: scale(1.03);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+            border: none;
+            transition: all 0.5s ease-out;
+        }
+        input[type="text"]:hover{
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+            border: none;
+            transition: all 0.5s ease-out;
+        }
+        #img{
+            width: 500px;
+            height: 500px;
+        }
+        #info{
+            display: none;
+        }
+        #input{
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <p style="padding: 0">Введите строку:</p>
+    <input id = "input" type="text">
+    <div id="ciphers">
+        <input type="submit" value="ROT1">
+        <input type="submit" value="Транспозиция">
+        <input type="submit" value="Азбука Морзе">
+        <input type="submit" value="A1Z26">
+        <input type="submit" value="RSA-алгоритм">
+    </div>
+    <p id="result" style="padding: 0">Результат: </p>
+    <p id="info"></p>
+    <div id="img"></div>
+</body>
+</html>
