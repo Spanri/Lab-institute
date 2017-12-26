@@ -1,0 +1,32 @@
+input, p{
+    margin: 8px;
+    padding: 7px;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+#ciphers input, #info, input[type="text"]{
+    background: rgb(101, 120, 129);
+    border: none;
+    color: white;
+}
+#ciphers input:hover{
+    transform: scale(1.03);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border: none;
+    transition: all 0.5s ease-out;
+}
+input[type="text"]:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border: none;
+    transition: all 0.5s ease-out;
+}
+#img{
+    width: 500px;
+    height: 500px;
+}
+#info{
+    display: none;
+}
+#input{
+    margin-top: 0;
+}

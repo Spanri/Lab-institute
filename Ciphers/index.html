@@ -1,48 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Кодировка -->
     <meta charset="UTF-8">
+    <!-- Мобильная версия -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Название приложения -->
     <title>Ciphers</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="index.js"></script>
-    <style>
-        input, p{
-            margin: 8px;
-            padding: 7px;
-            font-size: 20px;
-            word-wrap: break-word;
-        }
-        #ciphers input, #info, input[type="text"]{
-            background: rgb(101, 120, 129);
-            border: none;
-            color: white;
-        }
-        #ciphers input:hover{
-            transform: scale(1.03);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-            border: none;
-            transition: all 0.5s ease-out;
-        }
-        input[type="text"]:hover{
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-            border: none;
-            transition: all 0.5s ease-out;
-        }
-        #img{
-            width: 500px;
-            height: 500px;
-        }
-        #info{
-            display: none;
-        }
-        #input{
-            margin-top: 0;
-        }
-    </style>
+    <!-- Стили css -->
+    <link rel="stylesheet" type="text/css" href="mysite.css">
 </head>
 <body>
+    <!-- Строка ввода и кнопки -->
     <p style="padding: 0">Введите строку:</p>
     <input id = "input" type="text">
     <div id="ciphers">
@@ -52,8 +22,13 @@
         <input type="submit" value="A1Z26">
         <input type="submit" value="RSA-алгоритм">
     </div>
+    <!-- Строка вывода и информация о коде/шифре -->
     <p id="result" style="padding: 0">Результат: </p>
     <p id="info"></p>
     <div id="img"></div>
+    <!-- Файлы с кодом (для работы с фреймворком jquery, код алгоритмов и представление) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+    <script src="view.js"></script>
 </body>
 </html>
