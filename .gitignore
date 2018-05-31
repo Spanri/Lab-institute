@@ -1,4 +1,7 @@
 *.exe
+node_modules
+package-lock.json
+*.log*
 
 # User-specific files
 *.suo

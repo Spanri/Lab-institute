@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Document
+    link(href="sensor.css" rel="stylesheet")    
+  body
+    #add
+        button#plus + sensor
+        button#create Create
+        .but
+          .valu value
+            input(type="text")
+          .speed speed
+            input(type="text" value=1)
+    p#i(style="display:inline-block")
+    #err(style="display:inline-block;width:100%")
+    template#tmpl
+        div.sensor
+            p.senp ---
+            button.senb Add
+    script(src="jquery-3.2.1.min.js")
+    script(src='http://localhost:3000/socket.io/socket.io.js')
+    script(src="jquery-ui.min.js")
+    script(src='sensor.js')
+    
+    
