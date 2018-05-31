@@ -1,5 +1,0 @@
-﻿  Source.cpp
-c:\users\козлова\documents\visual studio 2017\projects\omtmo3\source.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-c:\users\козлова\documents\visual studio 2017\projects\omtmo3\source.cpp(56): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  omtmo3.vcxproj -> c:\users\козлова\documents\visual studio 2017\Projects\omtmo3\Debug\omtmo3.exe
-  omtmo3.vcxproj -> c:\users\козлова\documents\visual studio 2017\Projects\omtmo3\Debug\omtmo3.pdb (Partial PDB)

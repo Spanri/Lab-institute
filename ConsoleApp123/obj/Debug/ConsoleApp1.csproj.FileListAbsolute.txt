@@ -1,6 +1,0 @@
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\Spanri\Documents\Visual Studio 2017\Projects\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

@@ -1,6 +1,0 @@
-r	x	y	s
-4	4	-2	True
-4	-4	4	True
-4	2	0	True
-9	9	11	False
-2	0	0	True
